@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('One') {
       steps {
-        echo 'Hi, this is Uchenna from zeron Tech'
+        echo 'Hi, this is Uchenna from zeron Tech' + param.rollback
       }
     }
     stage('Two'){
